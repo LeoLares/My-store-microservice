@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConfigServiceApplication",
+            "request": "launch",
+            "mainClass": "com.myservice.store.configservice.ConfigServiceApplication",
+            "projectName": "config-service"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo1Application",
+            "request": "launch",
+            "mainClass": "com.myservice.demo1.Demo1Application",
+            "projectName": "demo1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServiceClientApplication",
+            "request": "launch",
+            "mainClass": "com.myservice.store.serviceclient.ServiceClientApplication",
+            "projectName": "service-client"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServiceProductApplication",
+            "request": "launch",
+            "mainClass": "com.myservice.store.product.ServiceProductApplication",
+            "projectName": "service-product"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServiceShoppingApplication",
+            "request": "launch",
+            "mainClass": "com.myservice.store.serviceshopping.ServiceShoppingApplication",
+            "projectName": "service-shopping"
+        }
+    ]
+}
