@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ServiceClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceClientApplication.class, args);
+		//SpringApplication.run(ServiceClientApplication.class, args);
 
 		SpringApplication app = new SpringApplication(ServiceClientApplication.class);
 		app.setDefaultProperties(Collections
